@@ -33,3 +33,9 @@ git remote add origin <https url>
 git push –u origin main
 
 git clone <copied http url> in ubuntu
+
+
+Dockerfile
+
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
