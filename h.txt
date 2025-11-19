@@ -24,3 +24,12 @@ sudo apt update
 sudo apt-get install docker.io
 sudo apt install git
 sudo apt install nano
+
+git add commit a folder
+
+create repo aws
+git branch –M main
+git remote add origin <https url>
+git push –u origin main
+
+git clone <copied http url> in ubuntu
