@@ -1,0 +1,22 @@
+https://github.com/harshithareddy1810/ashokit-maven-web-app
+minikube start
+Minikube version
+kubectl version
+kubectl create deployment mynginx --image=nginx
+kubectl get deployments
+kubectl get pods
+kubectl describe pods
+kubectl expose deployment mynginx --type=NodePort --port=80 --target-port=80
+kubectl scale deployment mynginx --replicas=4
+kubectl get service myngnix
+kubectl port-forward svc/mynginx 8081:80
+minikube dashboard
+
+ngios 
+
+docker pull jasonrivers/nagios:latest
+docker run --name nagiosdemo -p 8898:80 jasonrivers/nagios:latest
+docker stop nagiosdemo
+docker rm nagiosdemo
+docker images
+docker rmijasonrivers/nagios:latest
