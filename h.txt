@@ -20,3 +20,7 @@ docker stop nagiosdemo
 docker rm nagiosdemo
 docker images
 docker rmijasonrivers/nagios:latest
+sudo apt update
+sudo apt-get install docker.io
+sudo apt install git
+sudo apt install nano
